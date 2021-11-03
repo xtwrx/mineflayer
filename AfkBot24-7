@@ -1,0 +1,19 @@
+const mineflayer = require('mineflayer')
+
+const bot = mineflayer.createBot({
+  host: 'SmpGod241789.aternos.me', //
+  username: 'AfkBot24/7', //
+  password: 'Amen2011' //
+  // port: 25565,                //
+  // version: 1.17.1,             //
+  // auth: 'mojang'              //
+})
+
+bot.on('chat', (, message) => {
+  if (all === AfkBot24/7) return
+  bot.chat(Hope Your Having A Good Day)
+})
+
+// Log errors and kick reasons:
+bot.on('kicked', console.log)
+bot.on('error', console.log)
